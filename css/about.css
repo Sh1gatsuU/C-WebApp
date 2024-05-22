@@ -1,0 +1,40 @@
+.feedback-button {
+    background-color: #4e7cff; /* Змінено колір кнопки */
+    color: #fff; /* Змінено колір тексту кнопки */
+    border: none;
+    padding: 20px 40px; /* Змінено розмір кнопки */
+    border-radius: 10px; /* Змінено радіус кутів кнопки */
+    font-size: 24px; /* Змінено розмір тексту кнопки */
+    font-weight: bold; /* Додано жирний шрифт для тексту кнопки */
+    transition: all 0.3s ease;
+    cursor: pointer;
+    animation: pulse 1.5s infinite alternate; /* Додано анімацію */
+}
+.feedback-button:hover {
+    background-color: #1e5ae0; /* Змінено колір кнопки при наведенні */
+    color: #000; /* Змінено колір тексту при наведенні */
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Змінено тінь кнопки при наведенні */
+    animation: none; /* Скасовано анімацію при наведенні */
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+.about-section {
+    margin-top: 100px; /* Відступ від шапки */
+}
+.about-title {
+    font-size: 36px; /* Змінено розмір заголовка "Про проект" */
+    font-family: Arial, sans-serif; /* Вибрано приємний шрифт */
+    margin-bottom: 20px; /* Відступ від тексту нижче заголовка */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Сіра тінь для заголовка */
+}
+.about-text {
+    font-size: 20px; /* Змінено розмір тексту */
+    font-family: Arial, sans-serif; /* Вибрано приємний шрифт */
+}
