@@ -1,0 +1,90 @@
+
+.nav-link-lg {
+    font-size: 1.3rem; /* Збільшуємо розмір шрифту */
+    font-weight: bold; /* Робимо шрифт жирнішим */
+    padding: 0.5rem 1rem; /* Збільшуємо відступи всередині кнопок */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додаємо тінь */
+    transition: box-shadow 0.3s, color 0.3s, background-color 0.3s; /* Плавний перехід тіні, кольору тексту та фону */
+}
+
+.navbar-nav .nav-link-lg {
+    color: #ffffff; /* Білий колір тексту */
+    background-color: transparent; /* Прозорий фон */
+}
+
+.navbar-nav .nav-link-lg:hover {
+    color: #007bff; /* Голубий колір тексту при наведенні */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Більш м'яка тінь з 3D ефектом */
+}
+
+
+
+body {
+    background-color: white;
+}
+
+.pos{
+    padding-top: 75px;
+    color: #fff;
+}
+
+.logoimg {
+    position: absolute;
+    right: 320px;
+    top: 38%;
+    transform: translateY(-50%);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.lessons {
+    width: 60%;
+}
+.lesson-section {
+    margin-bottom: 40px;
+}
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.lesson-list {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.lesson-list li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.lesson-list li:last-child {
+    border-bottom: none;
+}
+.lesson-list li a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+}
+.lesson-list li:hover {
+    background-color: #e9f5ff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+.info-block {
+    width: 35%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
